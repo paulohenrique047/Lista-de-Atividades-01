@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Vamos descobrir a sua idade expressa em dias, Quantos anos você tem:");
+int ano = int.Parse(Console.ReadLine());
+Console.WriteLine("Quantos meses após seu aniversário você tem:");
+int mes = int.Parse(Console.ReadLine());
+Console.WriteLine("Quantos dias após o ultimo mês que você contou você tem:");
+int dia = int.Parse(Console.ReadLine());
+int dano;
+int dmes;
+dano = ano * 365;
+dmes = mes * 30;
+Console.WriteLine($"Sua idade expressa em dias é de {dano + dmes + dia}");
